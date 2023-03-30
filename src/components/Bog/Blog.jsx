@@ -1,18 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import Author from '../Author/Author';
 import './Blog.css'
 
 const Blog = () => {
-    const [blog, setBlog] = useState([]);
+    const [blogs, setBlog] = useState([]);
 
-    useEffect( () => {
+    useEffect(() => {
         fetch('Fakedata.json')
-        .then(res => res.json())
-        .then(data => console.log(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setBlog(data))
+    }, [])
     return (
         <div className='blog-container'>
             <div className="author-container">
-                <h2>Blog gose here</h2>
+                {
+                    blogs.map(blog => <Author key={blog.id} blog={blog}></Author>)
+                }
             </div>
             <div className="bookmark-container">
                 <h3>Bookmark here....</h3>
