@@ -1,0 +1,45 @@
+.blog-details {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    padding-top: 32px;
+}
+
+.author-details {
+    display: flex;
+}
+
+.author-details-container {
+    width: 845px;
+}
+
+hr {
+    margin-bottom: 2%;
+}
+
+.coverImg {
+    width: 845px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.author-details img {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 150%;
+    padding-top: 20%;
+}
+
+.Name {
+    margin-left: 12%;
+}
+
+.Name p {
+    font-size: 13px;
+    color: #11111199;
+}
+
+.Name h5 {
+    font-size: 20px;
+}
