@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.header a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: large;
+    font-weight: 500;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+nav.header a:hover{
+    font-size: x-large;
+}
