@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "author": "Mr. Raju",
+    "title": "How to get your first job as a self-taught programmer",
+    "coverImageUrl": "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "authorImageUrl": "https://tbsnews.net/sites/default/files/styles/infograph/public/images/2021/07/08/img_2842_0.jpg",
+    "readTime": 5,
+    "publishDate": "22 March(1days ago)"
+  },
+  {
+    "id": 2,
+    "author": "Mrs. Setara",
+    "title": "How to get your first job as a self-taught programmer",
+    "coverImageUrl": "https://unsplash.com/photos/dMUt0X3f59Q",
+    "authorImageUrl": "https://futurestartup.com/wp-content/uploads/2022/06/Ayman-Sadiq-cover-use.jpg",
+    "readTime": 10,
+    "publishDate": "4 March(7days ago)"
+  },
+  {
+    "id": 3,
+    "author": "Mina Mostofa",
+    "title": "How to get your first job as a self-taught programmer",
+    "coverImageUrl": "https://images.unsplash.com/photo-1592424002053-21f369ad7fdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+    "authorImageUrl": "https://smallbiography.com/wp-content/uploads/2021/06/solaiman-shukhon.jpg",
+    "readTime": 15,
+    "publishDate": "14 March(4days ago)"
+  }
+]
