@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 3%;
+    margin-right: 4%;
 }
 nav.header a{
     color: #000;
