@@ -59,6 +59,16 @@ hr {
     padding-left: 475px;
     font-size: 15px;
     color: #01010199;
+
+}
+
+.readingTime button {
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(17, 17, 17, 0.6);
+    background-color: white;
+    cursor: pointer;
 }
 
 .title {
@@ -67,11 +77,13 @@ hr {
     font-weight: 700;
     font-size: 40px;
 }
-.markasBtn{
+
+.markasBtn {
     border: none;
     text-decoration-line: underline;
     color: #6047EC;
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
+    background-color: white;
 }

@@ -13,7 +13,10 @@ const Blog = () => {
             .then(data => setBlog(data))
     }, []);
 
-    
+    // Bookmarked Blogs 
+    const handleAddtoBookmark = (blog) => {
+        console.log(blog);
+    }
     // onclick
     const handleAddtoSpent = (blog) => {
         // console.log(blog);
@@ -24,7 +27,7 @@ const Blog = () => {
         <div className='blog-container'>
             <div className="author-container">
                 {
-                    blogs.map(blog => <Author key={blog.id} blog={blog} handleAddtoSpent={handleAddtoSpent}></Author>)
+                    blogs.map(blog => <Author key={blog.id} blog={blog} handleAddtoSpent={handleAddtoSpent} handleAddtoBookmark={handleAddtoBookmark}></Author>)
                 }
             </div>
             <div className="bookmark-container">

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Bookmark.css';
+import Titleblog from '../Titleblog/Titleblog';
 
 const Bookmark = ({time}) => {
 
@@ -14,7 +15,7 @@ const Bookmark = ({time}) => {
                 <h3>Spent time on read : {total} min</h3>
             </div>
             <div className='bookmarkBlog'>
-                <h2>Bookmarked Blogs : 8</h2>
+               <Titleblog></Titleblog>
             </div>
         </div>
     );
