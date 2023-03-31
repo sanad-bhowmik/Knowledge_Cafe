@@ -11,7 +11,7 @@
 
 .author-details-container {
     /* width: 100%; */
-    width: 845px;
+    width: 945px;
 }
 
 .author-details-container a {
@@ -27,7 +27,7 @@ hr {
 }
 
 .coverImg {
-    width: 845px;
+    width: 945px;
     height: 450px;
     border-radius: 8px;
 }

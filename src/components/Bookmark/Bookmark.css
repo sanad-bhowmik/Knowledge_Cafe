@@ -1,0 +1,20 @@
+.spendTime {
+    font-size: 20px;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #6047EC;
+}
+
+.bookmarkBlog {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    width: 411px;
+    height: 1552px;
+}
+.bookmarkBlog h2{
+    padding-left: 54px;
+    padding-top: 30px;
+}
