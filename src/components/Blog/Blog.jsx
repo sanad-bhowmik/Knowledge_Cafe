@@ -18,7 +18,7 @@ const Blog = () => {
     const handleAddtoSpent = (blog) => {
         // console.log(blog);
         const newTime = [...time, blog];
-        setTime(newTime);;
+        setTime(newTime);
     }
     return (
         <div className='blog-container'>
@@ -28,7 +28,7 @@ const Blog = () => {
                 }
             </div>
             <div className="bookmark-container">
-                <Bookmark></Bookmark>
+                <Bookmark time={time}></Bookmark>
             </div>
         </div>
     );
