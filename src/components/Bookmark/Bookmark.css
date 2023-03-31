@@ -21,6 +21,13 @@
 }
 
 .bookmark-info-container {
-    /* position: sticky;
-    top: 0; */
+    font-size: 13px;
+    background: rgba(23, 9, 106, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10%;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 371px;
+    height: 98px;
+    padding-bottom: 3%;
 }

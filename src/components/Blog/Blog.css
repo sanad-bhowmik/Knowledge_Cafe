@@ -1,7 +1,24 @@
-.blog-container{
+.blog-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
     padding-top: 2%;
+    
 }
-.author-container{
+
+.spentTime {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #6047EC;
+    width: 411px;
+    text-align: center;
+}
+
+.blog-container h1 {
+    width: 411px;
+    font-size: 24px;
+    padding-top: 4%;
+    padding-left: 4%;
 }

@@ -38,11 +38,10 @@ const Blog = () => {
                 }
             </div>
             <div className="bookmark-container">
-                <div>
-                    {/* <Bookmark time={time}></Bookmark> */}
+                <div className='spentTime'>
                     <h3>Spent time on read : {time} min</h3>
                 </div>
-                <h1>{bookmark.length}</h1>
+                <h1>Bookmarked Blogs :{bookmark.length}</h1>
 
                 {
                     bookmark.map(blog => <Bookmark blog={blog}></Bookmark>)
