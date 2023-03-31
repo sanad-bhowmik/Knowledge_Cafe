@@ -8,6 +8,7 @@ const Author = (props) => {
     const { author, title, coverImageUrl, authorImageUrl, readTime, publishDate } = props.blog;
     // Spent time on read
     const handleAddtoSpent = props.handleAddtoSpent;
+    const handleBookMark = props.handleBookMark;
 
     return (
         <div className='author-details-container'>
@@ -21,14 +22,14 @@ const Author = (props) => {
                     </div>
                 </div>
                 <div className='readingTime'>
-                    <button>{readTime} min read<FontAwesomeIcon icon={faBookmark} /></button>
+                    <button onClick={() => handleBookMark(props.blog)}>{readTime} min read<FontAwesomeIcon icon={faBookmark} /></button>
                 </div>
             </div>
             <h2 className='title'>{title}</h2>
 
             <p style={{ color: "gray", fontSize: "15px" }}>#beginners #programming</p>
 
-            <button className='markasBtn'onClick={() => handleAddtoSpent(props.blog)}>Mark as Read</button>
+            <button className='markasBtn'onClick={() => handleAddtoSpent(readTime)}>Mark as Read</button>
             <hr />
         </div>
     );
