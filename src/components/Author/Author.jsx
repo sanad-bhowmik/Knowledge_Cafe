@@ -4,10 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Author = (props) => {
+    // console.log(props);
     const { author, title, coverImageUrl, authorImageUrl, readTime, publishDate } = props.blog;
+    const handleAddtoSpent = props.handleAddtoSpent;
+
     return (
         <div className='author-details-container'>
-            <img src={coverImageUrl} alt="" className='coverImg'/>
+            <img src={coverImageUrl} alt="" className='coverImg' />
             <div className='blog-details'>
                 <div className='author-details'>
                     <img src={authorImageUrl} alt="" />
@@ -21,8 +24,10 @@ const Author = (props) => {
                 </div>
             </div>
             <h2 className='title'>{title}</h2>
-            <p style={{color: "gray" , fontSize:"15px"}}>#beginners #programming</p>
-            <a href="">Mark as read</a>
+
+            <p style={{ color: "gray", fontSize: "15px" }}>#beginners #programming</p>
+
+            <button className='markasBtn'onClick={() => handleAddtoSpent(props.blog)}>Mark as Read</button>
             <hr />
         </div>
     );

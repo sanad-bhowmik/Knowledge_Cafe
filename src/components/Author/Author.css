@@ -11,6 +11,11 @@
 
 .author-details-container {
     /* width: 100%; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
     width: 945px;
 }
 
@@ -61,4 +66,12 @@ hr {
     height: 128px;
     font-weight: 700;
     font-size: 40px;
+}
+.markasBtn{
+    border: none;
+    text-decoration-line: underline;
+    color: #6047EC;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
 }
