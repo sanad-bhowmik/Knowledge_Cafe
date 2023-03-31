@@ -1,7 +1,7 @@
 import React from 'react';
 import './Titleblog.css'
 
-const Titleblog = () => {
+const Titleblog = ({titleblog}) => {
     return (
         <div>
              <h2>Bookmarked Blogs : 8</h2>
