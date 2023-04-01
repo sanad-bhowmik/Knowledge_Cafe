@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Author from '../Author/Author';
 import './Blog.css'
 import Bookmark from '../Bookmark/Bookmark';
+import { ToastContainer, toast } from "react-toastify";
 
 const Blog = () => {
     const [blogs, setBlog] = useState([]);
@@ -16,7 +17,16 @@ const Blog = () => {
     const handleBookMark = (blog) => {
         const newBookMark = [...bookmark, blog];
         setBookmark(newBookMark);
-        console.log(newBookMark);
+        // console.log(newBookMark);
+        if (bookmark.find((b) => b.id === blog.id)) {
+            toast.error("This post already  added.", { autoClose: 1000 });
+            const newBookMark = [...bookmark, blog];
+            setBookmark(newBookMark);
+        } else {
+            const newBookMark = [...bookmark, blog];
+            setBookmark(newBookMark);
+            toast.success("Post added successfully.", { autoClose: 1000 });
+        }
     }
 
     // onclick
