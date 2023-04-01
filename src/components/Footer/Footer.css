@@ -39,23 +39,36 @@ footer .col-md-3:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0)
 }
-@media (max-width: 767px) {
-    footer {
-      padding: 20px 0;
-      font-size: 12px;
-    }
-  
+
+@media only screen and (min-width: 768px) {
     .row {
-      margin-left: 0;
-      margin-right: 0;
-      text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-  
-    .col-md-3 {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 30px;
-      max-width: 300px;
+
+    footer .col-md-3 {
+        width: 90%;
     }
-  }
-  
+}
+
+@media only screen and (min-width: 992px) {
+    .row {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    footer .col-md-3 {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .row {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    footer .col-md-3 {
+        width: 30%;
+    }
+}

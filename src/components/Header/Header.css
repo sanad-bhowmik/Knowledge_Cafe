@@ -1,39 +1,40 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 3%;
     margin-right: 4%;
-}
-nav.header a{
+  }
+  
+  nav.header a {
     color: #000;
     text-decoration: none;
     margin-left: 30px;
     font-size: large;
     font-weight: 500;
-}
-.avatar {
+  }
+  
+  .avatar {
     vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
-nav.header a:hover{
+  
+  nav.header a:hover {
     font-size: x-large;
-}
-@media screen and (max-width: 768px) {
+  }
+  
+  @media only screen and (max-width: 600px) {
     .header {
       flex-direction: column;
       align-items: flex-start;
     }
     
-    .header h2 {
-      margin-bottom: 20px;
-    }
-    
     nav.header a {
-      margin: 0;
-      font-size: 16px;
+      margin: 10px 0;
+      display: block;
+      font-size: 20px;
     }
   }
   
