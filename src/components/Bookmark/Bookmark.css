@@ -30,4 +30,26 @@
     width: 371px;
     height: 98px;
     padding-bottom: 3%;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .bookmarkBlog {
+        width: 100%;
+        height: auto;
+    }
+
+    .bookmarkBlog h2 {
+        padding-left: 10%;
+    }
+
+    .bookmark-info-container {
+        width: 90%;
+        height: auto;
+        margin-bottom: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 }

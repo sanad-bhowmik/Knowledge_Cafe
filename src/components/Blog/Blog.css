@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     padding-top: 2%;
-    
 }
 
 .spentTime {
@@ -22,3 +21,24 @@
     padding-top: 4%;
     padding-left: 4%;
 }
+@media only screen and (max-width: 768px) {
+    .blog-container {
+      display: flex;
+      flex-direction: column;
+      padding: 2% 0;
+    }
+  
+    .author-container {
+      width: 100%;
+    }
+  
+    .bookmark-container {
+      margin-top: 2%;
+    }
+  
+    .spentTime, .blog-container h1 {
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+  

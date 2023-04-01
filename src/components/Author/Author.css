@@ -87,3 +87,51 @@ hr {
     cursor: pointer;
     background-color: white;
 }
+/* For devices with a screen width up to 768px (tablets and smaller) */
+@media only screen and (max-width: 768px) {
+    .author-details-container {
+      width: 100%;
+      margin-left: 0;
+      padding: 24px;
+    }
+    
+    .coverImg {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+  
+    .author-details img {
+      margin-top: 0;
+      margin-right: 12px;
+      width: 40px;
+      height: 40px;
+    }
+  
+    .Name p {
+      font-size: 12px;
+    }
+  
+    .Name h5 {
+      font-size: 18px;
+    }
+  
+    .readingTime {
+      padding-left: 0;
+      font-size: 13px;
+    }
+  
+    .title {
+      width: 100%;
+      font-size: 28px;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+  
+    .markasBtn {
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 24px;
+    }
+  }
+  
